@@ -12,11 +12,11 @@ function Home() {
   const { loading, data: { getPosts: posts } = {} } = useQuery(FETCH_POSTS_QUERY)
 
   return (
-    <Grid columns={2}>
+    <Grid stackable centered columns={2}>
       <Grid.Row className="page-title">
         <h2>Another Social Media Application</h2>
       </Grid.Row>
-      <Grid.Row className="page-title">
+      <Grid.Row className="page-title2">
         {user ? (
           <Grid.Column>
             <PostForm />

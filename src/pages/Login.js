@@ -41,7 +41,7 @@ function Login(props) {
         <h1>Login</h1>
         <Form.Input
           label="Username"
-          placeholder="Username.."
+          placeholder="Username (case-sensitive)..."
           name="username"
           type="text"
           value={values.username}
@@ -50,7 +50,7 @@ function Login(props) {
         />
         <Form.Input
           label="Password"
-          placeholder="Password.."
+          placeholder="Password..."
           name="password"
           type="password"
           value={values.password}

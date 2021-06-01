@@ -14,7 +14,7 @@ function PostCard({
   const { user } = useContext(AuthContext);
 
   return (
-    <Card fluid>
+    <Card stackable fluid>
       <Card.Content>
         <Card.Header>{username}</Card.Header>
         <Card.Meta as={Link} to={`/posts/${id}`}>
